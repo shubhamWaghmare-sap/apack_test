@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+ <asx:values>
+  <DATA>
+   <GROUP_ID>sap.com</GROUP_ID>
+   <ARTIFACT_ID>apack-test</ARTIFACT_ID>
+   <VERSION>0.2</VERSION>
+   <REPOSITORY_TYPE>abapGit</REPOSITORY_TYPE>
+   <GIT_URL>https://github.com/shubhamWaghmare-sap/apack_test.git</GIT_URL>
+   <DEPENDENCIES>
+    <item>
+     <GROUP_ID>sap.com</GROUP_ID>
+     <ARTIFACT_ID>apack-dependency-1</ARTIFACT_ID>
+     <GIT_URL>https://github.com/shubhamWaghmare-sap/apack_dependency_1.git</GIT_URL>
+    </item>
+   </DEPENDENCIES>
+  </DATA>
+ </asx:values>
+</asx:abap>
